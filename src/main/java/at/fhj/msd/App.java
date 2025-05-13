@@ -1,10 +1,16 @@
 package at.fhj.msd;
 
 /**
- * Hello world!
+ * @author Umejr Dzinovic
  */
 public class App {
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        
+        StringBox s = new StringBox("MSD");
+        s.print();
+
+        IntegerBox number = new IntegerBox(42);
+        number.print();
+
     }
 }
